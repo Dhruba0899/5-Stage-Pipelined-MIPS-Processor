@@ -54,7 +54,7 @@ This project implements a 5 stage pipelined MIPS processor in Verilog with a for
     |----------|----------|----------| ----------| ----------| ----------|
     | 6 bits(31:26) | 5 bits (25:21) | 5 bits (20:16) | 5 bits (15:11) | 5 bits (10:6) | 5 bits (5:0) |
 
-### **Shift**
+### **Shift Right**
 - `srl destinationReg, sourceReg, offset`  
   - Opcode: `000001`, funct: `000010`
   - | opcode | rs(sourceReg) | rt(destinationReg) | imm(offset) |
